@@ -25,10 +25,10 @@ Ek Araçlar: (OpenCV vs.)
 Projeyi kendi bilgisayarınızda çalıştırmak için:
 
 # 1. Reposu klonla
-git clone https://github.com/sareken/pet-adopted.git
+git clone https://github.com/sareken/pet-adoption.git
 
 # 2. Proje klasörüne gir
-cd pet-adopted
+cd pet-adoption
 
 # 3. Gerekli bağımlılıkları yükle (eğer varsa)
 # Python örneği:
