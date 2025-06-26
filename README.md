@@ -25,10 +25,10 @@ Ek Araçlar: (OpenCV vs.)
 Projeyi kendi bilgisayarınızda çalıştırmak için:
 
 # 1. Reposu klonla
-git clone https://github.com/KULLANICI_ADIN/evcil-hayvan-sahiplendirme.git
+git clone https://github.com/sareken/pet-adopted.git
 
 # 2. Proje klasörüne gir
-cd evcil-hayvan-sahiplendirme
+cd pet-adopted
 
 # 3. Gerekli bağımlılıkları yükle (eğer varsa)
 # Python örneği:
