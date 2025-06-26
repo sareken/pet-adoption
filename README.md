@@ -1,61 +1,65 @@
-```markdown
-# Pet Adoption Platform
+Pet Adoption Platform
+This is a web-based pet adoption platform developed using PHP and MySQL. It allows animal shelters or individual users to post adoption listings, and enables others to view, filter, and apply to adopt animals.
 
-This project is a PHP and MySQL-based web platform that allows users to view and adopt stray animals. Animal shelters or individual users can post adoption listings. Interested users can apply and get in touch.
+Features
+View pet listings (name, age, species, gender, description, photo, city)
 
-## Features
+User registration and login system
 
-- Display pet listings (name, age, species, gender, description, photo, city)
-- User registration and login system
-- Add new adoption listings
-- Submit and view adoption applications
-- Filter listings by species
-- Upload images or provide image URLs
+Add new adoption listings
 
-## Technologies Used
+Submit and view adoption applications
 
-- Frontend: HTML, CSS, JavaScript (Bootstrap 5)
-- Backend: PHP (with session handling)
-- Database: MySQL
-- Other tools: FontAwesome for icons
+Filter listings by species
 
-## Setup Instructions
+Upload pet images or provide image URLs
 
-To run this project locally:
+Technologies Used
+Frontend: HTML, CSS, JavaScript (Bootstrap 5)
 
-### 1. Clone the repository
+Backend: PHP (with session management)
 
-```bash
+Database: MySQL
+
+Other Tools: FontAwesome (for icons)
+
+Setup Instructions
+1. Clone the Repository
+bash
+Kopyala
+Düzenle
 git clone https://github.com/sareken/pet-adoption.git
-2. Enter the project directory
+2. Enter the Project Directory
 bash
 Kopyala
 Düzenle
 cd pet-adoption
-3. Set up the database
-Create a MySQL database named pet_adoption
+3. Set Up the Database
+Create a MySQL database named pet_adoption.
 
-If available, import the SQL schema to create necessary tables: users, pets, adoption_requests
+Import the SQL schema to create necessary tables (users, pets, adoption_requests) if available.
 
-Using phpMyAdmin or command line:
-
+Example using MySQL:
 CREATE DATABASE pet_adoption;
-Make sure to update database credentials in db_connection.php accordingly.
+Make sure to update your database credentials in db_connection.php.
 
-4. Start the local server
+4. Start the Local Server
 bash
 Kopyala
 Düzenle
 php -S localhost:8000
-Then go to: http://localhost:8000
+Then open your browser and visit:
 
+arduino
+Kopyala
+Düzenle
+http://localhost:8000
 Notes
-Make sure assets/images/ folder exists and is writable
+Ensure the assets/images/ folder exists and has write permissions.
 
-File upload support must be enabled in your php.ini
+Enable file upload support in your php.ini file.
 
-Default images are shown if no image is uploaded
+Default images are shown if no image is uploaded.
 
-PHP sessions are used for login, logout, and flash messages
-
+PHP sessions are used for login, logout, and flash messages.
 
