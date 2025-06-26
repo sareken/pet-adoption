@@ -42,6 +42,7 @@ Create a MySQL database named pet_adoption.
 Import the SQL schema (if provided) to create the required tables: users, pets, adoption_requests.
 CREATE DATABASE pet_adoption;
 Update your database credentials in the db_connection.php file.
+
 4. Start the Local PHP Server
 php -S localhost:8000
 
